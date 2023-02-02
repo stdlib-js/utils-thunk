@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-thunk/tags). For example,
+
+```javascript
 import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@v0.0.1-deno/mod.js';
 ```
 
@@ -87,7 +92,7 @@ v = f();
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
 import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@deno/mod.js';
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@v0.0.1-deno/mod.js';
+import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@deno/mod.js';
 
 function log( v ) {
     console.log( v );
