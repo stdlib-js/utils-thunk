@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@esm/index.mjs';
+import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@v0.1.0-esm/index.mjs';
 ```
 
 #### thunk( fcn\[, ...args] )
@@ -103,7 +103,7 @@ v = f();
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@esm/index.mjs';
 import decorateAfter from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-decorate-after@esm/index.mjs';
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@esm/index.mjs';
+import thunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-thunk@v0.1.0-esm/index.mjs';
 
 function log( v ) {
     console.log( v );
